@@ -9,3 +9,10 @@ dotfiles config status.showUntrackedFiles no
 dotfiles remote add origin git@github.com:ondravondra/dotfiles.git
 dotfiles pull origin master
 ```
+
+## vim
+
+Install (e.g. using [yay](https://github.com/Jguer/yay)):
+```
+yay -S vim-plug vim-nerdtree nvim-r
+```
