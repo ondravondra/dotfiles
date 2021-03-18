@@ -1,0 +1,9 @@
+[core]
+  autocrlf = input
+  editor = vim
+[include]
+  path = ~/.gitconfig.local # https://stackoverflow.com/a/39198833/1943077
+[pull]
+  rebase = true
+[init]
+  defaultBranch = master
