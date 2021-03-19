@@ -1,7 +1,10 @@
 call plug#begin('~/.vim/plugged')
 
 Plug 'preservim/nerdtree'
-Plug 'jalvesaq/Nvim-R'
+
+if !empty(glob("$HOME/.vimrc.local"))
+  source ~/.vimrc.local
+endif
 
 call plug#end()
 
