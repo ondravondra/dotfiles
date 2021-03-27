@@ -16,6 +16,8 @@ set mouse=
 set wildmenu
 set wildmode=longest:full,full
 set noerrorbells
+set path+=**
+set tags=./tags,tags;$HOME
 filetype plugin on
 syntax enable
 
