@@ -18,6 +18,8 @@ set wildmode=longest:full,full
 set noerrorbells
 set path+=**
 set tags=./tags,tags;$HOME
+set spelllang=cs
+
 filetype plugin on
 syntax enable
 
