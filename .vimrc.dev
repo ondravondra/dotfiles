@@ -1,0 +1,4 @@
+" vim: ft=vim
+" sourced in .vimrc.local
+
+Plug 'pprovost/vim-ps1'
