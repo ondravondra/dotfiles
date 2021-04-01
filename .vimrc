@@ -21,6 +21,7 @@ set tags=./tags,tags;$HOME
 set spelllang=cs
 
 if has('clipboard')
+  set clipboard=unnamedplus
   xnoremap <silent> p p:let @+=@0<CR>:let @"=@0<CR>
 else
   xnoremap <silent> p p:let @"=@0<CR>
