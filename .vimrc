@@ -20,6 +20,12 @@ set path+=**
 set tags=./tags,tags;$HOME
 set spelllang=cs
 
+if has('clipboard')
+  xnoremap <silent> p p:let @+=@0<CR>:let @"=@0<CR>
+else
+  xnoremap <silent> p p:let @"=@0<CR>
+endif
+
 filetype plugin on
 syntax enable
 
