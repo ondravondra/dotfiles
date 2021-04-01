@@ -16,3 +16,7 @@ Install (e.g. using [yay](https://github.com/Jguer/yay)):
 ```
 yay -S vim-plug vim-nerdtree nvim-r
 ```
+On Ubuntu use:
+```
+sudo mkdir /etc/vim/autoload ; sudo curl -Lo /etc/vim/autoload/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
